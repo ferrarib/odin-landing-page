@@ -64,7 +64,7 @@ ul {
 
 .left {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:flex-start;
 }
 
@@ -83,8 +83,9 @@ ul {
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
-    padding: 8px 20px;
+    padding: 8px 24px;
     color: white;
+    font-size: 14px;
 }
 
 .sign-up:hover {
@@ -211,4 +212,56 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (min-width: 600px) {
+
+    .big-text {
+        font-size: 28px;
+    }
+
+    .small-text {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 850px) {
+
+    .big-text {
+        font-size: 32px;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .big-text {
+        font-size: 36px;
+    }
+
+    .small-text {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .big-text {
+        font-size: 44px;
+    }
+
+    .small-text {
+        font-size: 24px;
+    }
+
+}
+
+
+
 
